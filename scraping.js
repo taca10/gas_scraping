@@ -1,6 +1,4 @@
 function scraping() {
-  var blog_url_array = '';
-  var topUrl = 'http://at-jinji.jp/blog/all/';
   var sheet = SpreadsheetApp.getActiveSpreadsheet();
   var sht = sheet.getSheetByName('シート1');
   var links = [];
